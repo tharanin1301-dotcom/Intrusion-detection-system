@@ -1,0 +1,27 @@
+# Environment & Dependencies
+node_modules/
+backend/venv/
+venv/
+.env
+.env.local
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Frontend builds
+dist/
+frontend/dist/
+
+# Large raw training datasets (compiled models rf_model.pkl, lstm_model.pth, scaler.pkl are tracked)
+backend/KDDTrain+.txt
+backend/KDDTest+.txt
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
